@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutqni Aniqlash Dasturi</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nutqni Aniqlash va Xatoliklarni Tahlil Qilish</h1>
+        
+        <div class="controls">
+            <button onclick="startRecognition()">Nutqni Boshlash</button>
+            <button onclick="stopRecognition()">To'xtatish</button>
+        </div>
+        
+        <div class="output">
+            <h3>Yozuv:</h3>
+            <textarea id="textOutput" rows="6" cols="50" readonly></textarea>
+        </div>
+        
+        <div class="correction">
+            <h3>Xatoliklarni Tuzatish:</h3>
+            <textarea id="correctionOutput" rows="6" cols="50" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
